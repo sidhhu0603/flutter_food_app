@@ -3,6 +3,7 @@ import 'package:foodly_ui/constants.dart';
 import 'package:foodly_ui/screens/onboarding/onboarding_scrreen.dart';
 
 void main() {
+  WidgetsFlutterBinding.ensureInitialized();
   runApp(const MyApp());
 }
 

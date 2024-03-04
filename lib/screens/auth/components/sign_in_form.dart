@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:foodly_ui/screens/findRestaurants/find_restaurants_screen.dart';
-
+import 'package:firebase_auth/firebase_auth.dart';
 import '../../../components/buttons/primary_button.dart';
 import '../../../constants.dart';
 import '../forgot_password_screen.dart';

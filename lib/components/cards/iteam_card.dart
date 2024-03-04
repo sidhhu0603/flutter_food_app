@@ -79,7 +79,7 @@ class ItemCard extends StatelessWidget {
                         Text(foodType!, style: textStyle),
                         const Spacer(),
                         Text(
-                          "USD$price",
+                          "Rs.",
                           style: Theme.of(context)
                               .textTheme
                               .labelLarge!

@@ -78,9 +78,9 @@ final List<Map<String, dynamic>> demoData = List.generate(
   (index) => {
     "image": "assets/images/featured _items_${index + 1}.png",
     "title": "Cookie Sandwich",
-    "description": "Shortbread, chocolate turtle cookies, and red velvet.",
+    "description": "Shortbread.",
     "price": 7.4,
-    "foodType": "Chinese",
-    "priceRange": "\$" * 2,
+    "foodType": "Veg",
+    "priceRange": "\$",
   },
 );

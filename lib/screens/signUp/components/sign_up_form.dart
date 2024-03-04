@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:foodly_ui/screens/phoneLogin/phone_login_screen.dart';
-
 import '../../../constants.dart';
 
 class SignUpForm extends StatefulWidget {

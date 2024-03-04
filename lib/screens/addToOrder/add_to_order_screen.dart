@@ -71,7 +71,7 @@ class _AddToOrderScrreenState extends State<AddToOrderScrreen> {
                     ),
                     const SizedBox(height: defaultPadding),
                     const RequiredSectionTitle(
-                        title: "Choice of Bottom Cookie"),
+                        title: "Choice Bottom Cookie"),
                     const SizedBox(height: defaultPadding),
                     ...List.generate(
                       choiceOfTopCookies.length,
@@ -106,7 +106,7 @@ class _AddToOrderScrreenState extends State<AddToOrderScrreen> {
                           padding: const EdgeInsets.symmetric(
                               horizontal: defaultPadding),
                           child: Text(numOfItems.toString().padLeft(2, "0"),
-                              style: Theme.of(context).textTheme.titleLarge),
+                              style: Theme.of(context).textTheme.titleMedium),
                         ),
                         SizedBox(
                           height: 40,
@@ -132,7 +132,7 @@ class _AddToOrderScrreenState extends State<AddToOrderScrreen> {
                           ),
                         );
                       },
-                      child: const Text("Add to Order (\$11.98)"),
+                      child: const Text("Add to Order (Rs.254)"),
                     ),
                   ],
                 ),

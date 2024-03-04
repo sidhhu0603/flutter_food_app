@@ -30,8 +30,8 @@ class FeaturedItems extends StatelessWidget {
                   child: FeaturedItemCard(
                     title: "Cookie Sandwich",
                     image: "assets/images/featured _items_${index + 1}.png",
-                    foodType: "Chines",
-                    priceRange: "\$" * 2,
+                    foodType: "Veg",
+                    priceRange: "\Rs.120 ",
                     press: () {},
                   ),
                 ),
